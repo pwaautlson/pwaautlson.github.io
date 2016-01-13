@@ -1,8 +1,8 @@
 body {
-    background-color: lightgray;
+    background-color: #c0c0c0;
 }
 .sizecolor {
-    color: darkmagenta;
+    color: #000000;
     font-size: 30px;
 }
 a:link {
@@ -15,4 +15,13 @@ a:visited {
 a:hover {
       color: black;  
     
+}
+ol {
+    background: #ff9999;
+    padding: 5px;
+}
+ol li {
+    background: #ffe5e5;
+    padding: 5px;
+    margin-left: 35px;
 }
