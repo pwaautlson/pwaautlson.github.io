@@ -1,0 +1,17 @@
+body {
+    background-color: lightgray;
+}
+.sizecolor {
+    color: darkmagenta;
+    font-size: 30px;
+}
+a:link {
+    text-decoration: none;
+    color: lightcoral;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+      color: black;  
+}
