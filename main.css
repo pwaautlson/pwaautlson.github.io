@@ -10,8 +10,9 @@ a:link {
     color: lightcoral;
 }
 a:visited {
-    color: black;
+    color: lightcoral;
 }
 a:hover {
       color: black;  
+    
 }
