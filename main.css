@@ -41,7 +41,18 @@ h1 {
  color: #ffffff;
     font-size: 20px;  
       background: #000000;
+     text-align: left;
+}
+div.nav1 {               /* I love borders!!!!!!! */
+      height : 24px;
+    width:100%;
+    color: #ffffff;
+    font-size: 20px;
+      background: #000000;
      text-align: center;
+position: absolute;
+border: 0px solid #73AD21;
+ top: 5%;
 }
 div.nav {               /* I love borders!!!!!!! */
       height : 24px;
@@ -76,13 +87,66 @@ border: 0px solid #73AD21;
       background: #ff00fc;
      text-align: left;
 position: absolute;
-border: 0px solid #ff0000;
-                                              /* I love borders!!!!!!! */
+border: 0px solid #ff00ff;
 background: #5A3F37; /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #5A3F37 , #2C7744); /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #5A3F37 , #2C7744); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        
+background: -webkit-linear-gradient(to left, #5A3F37 , #2C7744);
+background: linear-gradient(to left, #5A3F37 , #2C7744);       
 }
+.secleft {
+    left: 5%;
+     height : 100%;
+    width:45%;
+    color: #ffffff;
+    font-size: 27px;
+      background: #ff00fc;
+     text-align: left;
+position: absolute;
+border: 0px solid #ff00ff;  
+    animation-name: example;
+    animation-duration: 9s;
+   
+}
+
+@keyframes example {
+    9%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+    50%  {background-color: white;}
+     60%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+    0%  {background-color: white;}
+}
+
+
+footer { 
+height : 90px;
+    width:100%;
+    color: #ffffff;
+    font-size: 20px;
+      background: #000000;
+     text-align: center;
+position: absolute;
+bottom : 0;
+    border: 0px solid #ff0000;
+}
+
+
+ a {
+    text-decoration: none;
+     color: #ffffff;
+}
+a:visited {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}   
+a:hover {
+    text-decoration: underline;
+} 
 footer { 
 height : 90px;
     width:100%;
