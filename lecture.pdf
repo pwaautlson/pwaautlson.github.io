@@ -1,0 +1,127 @@
+THE CSS
+CASCADING STYLE SHEETS
+
+CASCADING STYLE SHEETS
+WHAT IS CSS?
+▸ Presentational language for applying style to our HTML ▸ Separates our style from our markup ▸ CSS documents are loaded into the HTML page ▸ The browser applies style rules to the HTML content
+
+CASCADING STYLE SHEETS
+HOW DOES IT WORK WITH HTML?
+▸  Use HTML to describe the content of the document, 
+not its style.
+▸ You use CSS to specify the document's style,  
+not its content.
+
+CASCADING STYLE SHEETS
+COMMON TERMS
+▸ Selectors 
+a selector designates exactly which element or elements within our HTML to target and apply styles
+▸ Properties 
+a property determines the styles that will be applied to that
+element
+▸ Values 
+describes the behavior of a property
+▸ Rules 
+Comprise the selector and property/values
+
+CASCADING STYLE SHEETS
+THE ANATOMY OF A RULE (WITHOUT NOTES)
+selector {   property: value; }
+
+CASCADING STYLE SHEETS
+THE ANATOMY OF A RULE
+body {   color: orange; }
+Selector
+Property
+Value
+Opening Bracket
+Closing Bracket
+Rule
+
+CASCADING STYLE SHEETS
+THE ANATOMY OF A RULE (WITHOUT NOTES)
+body {   color: orange; }
+
+CASCADING STYLE SHEETS
+SELECTORS
+▸ Element Selector ▸ Class Selector ▸ ID Selector ▸ Advanced Selectors
+▸ Relational Selectors
+▸ Pseudo Class Selectors
+
+CASCADING STYLE SHEETS
+ELEMENT SELECTORS
+<body>  <p>What up!</p> </body>
+HTML
+CSS
+body {   background: black;   color: white; }
+p {   font-size: 24px; }
+
+CASCADING STYLE SHEETS
+CLASS SELECTORS
+HTML
+CSS
+.bodyClass {   background: black;   color: white; }
+.pClass {   font-size: 24px; }
+<body class="bodyClass">  <p class="pClass">     What up!  </p> </body>
+Denoted by the use of the period ex: .someClassName
+
+CASCADING STYLE SHEETS
+ID SELECTORS
+HTML
+CSS
+#bodyID {   background: black;   color: white; }
+#pID {   font-size: 24px; }
+<body id="bodyID">  <p id="pID">     What up!  </p> </body>
+Denoted by the use of the number/hash ex: #someId
+
+CASCADING STYLE SHEETS
+SELECTORS CONT.
+▸ Selectors in CSS correspond
+to elements / ids / classes 
+in HTML
+▸ They are case-sensitive.
+#goEags {  color: black;  text-transform: uppercase;  font-weight: bold;  background: red; }
+<h1 id="goeags">Go Eags!</h1>
+“e” vs. “E”
+
+CASCADING STYLE SHEETS
+SELECTORS CONT.
+▸ IDs(#) are unique. 
+You have a student ID.
+▸ Applies to HTML as well, 
+not just CSS
+<p id="pTag1">#1 P Tag</p> <p id="pTag2">#2 P Tag</p> <p id="pTag1">#3 P Tag</p>
+Elements have 
+the same ID This is bad.
+
+CASCADING STYLE SHEETS
+SELECTORS CONT.
+▸ IDs(#) are unique. 
+You have a student ID.
+<p id="pTag1">#1 P Tag</p> <p id="pTag2">#2 P Tag</p> <p id="pTag1">#3 P Tag</p>
+Elements have 
+the same ID This is bad.
+document.getElementbyId("pTag1");
+Javascript example: there will be confusion!
+
+CASCADING STYLE SHEETS
+SELECTORS CONT.
+▸ Classes can be reused and combined. 
+As a student, you can/will have multiple classes.
+<p class="big red-text”>   Go Eags! </p>
+.big {  font-size: 32px;  font-weight: bold; }
+.red-text {  color: red; }
+
+CASCADING STYLE SHEETS
+SELECTORS CONT.
+▸ Where does the “cascading” come in?
+.red-text {    color: #990E19; }
+.red-text {    color: pink; }
+.red-text {    color: rgb(255, 0, 0); }
+▸ Same Selector… ▸ Think waterfall, ▸ the last rule is applied.
+
+CASCADING STYLE SHEETS
+ADDING AN EXTERNAL STYLESHEET
+▸ We’ll write our CSS in an external ﬁle ▸ We’ll create a reference to our CSS ﬁle on our HTML page
+<head>   <!-- Goes within the head element -->   <link rel="stylesheet" href="main.css"> </head>
+   3 / 17        
