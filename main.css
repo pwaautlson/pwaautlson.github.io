@@ -85,8 +85,9 @@ top : 0%;
 div.bodyartsecright {         /* side frame right index */
       height : 100%;
     width:50%;
-    color: #000000;
-    text-shadow: 2px 2px 21px #FFFFFF;
+    color: #616161;
+background-color: #bababa;
+text-shadow: #e0e0e0 1px 1px 0;
     font-size: 20px;
       background: #353434;
      text-align: left;
@@ -98,8 +99,7 @@ left : 50%;
 div.bodyartsecright1 {         /* side frame right about */
       height : 100%;
     width:50%;
-    color: #000000;
-    text-shadow: 2px 2px 21px #FFFFFF;
+    color: #ffffff; 
     font-size: 25px;
       background: #353434;
      text-align: center;
@@ -119,14 +119,12 @@ aside {
     animation-duration: 8s;
     text-align: left;
 }
-
-
-
 div.bast1 {                        /* BAST artical top frame index*/
      height : 50%;
     width:100%;
-    color: #000000;
-  text-shadow: 2px 2px 21px #FFFFFF;
+    color: #616161;
+background-color: #bababa;
+text-shadow: #e0e0e0 1px 1px 0;
     font-size: 32px;
       background: #353434;
      text-align: center;
@@ -137,8 +135,9 @@ left : 0%;
 div.bast {                        /* BAST artical top frame about*/
      height : 50%;
     width:100%;
-    color: #000000;
-  text-shadow: 2px 2px 21px #FFFFFF;
+    color: #616161;
+background-color: #bababa;
+text-shadow: #e0e0e0 1px 1px 0;
     font-size: 32px;
       background: #353434;
      text-align: center;
@@ -151,8 +150,9 @@ left : 0%;
 div.bastb1 {                      /* BASTb section bottom frame index */
      height : 50%;
     width:100%;
-    color: #000000;
-    text-shadow: 2px 2px 21px #FFFFFF;
+    color: #616161;
+background-color: #bababa;
+text-shadow: #e0e0e0 1px 1px 0;
     font-size: 32px;
       background: #353434;
      text-align: left;
@@ -163,8 +163,9 @@ top : 50%;
 div.bastb {                       /* BASTb section bottom frame about */
      height : 50%;
     width:100%;
-    color: #000000;
-    text-shadow: 2px 2px 21px #FFFFFF;
+    color: #616161;
+background-color: #bababa;
+text-shadow: #e0e0e0 1px 1px 0;
     font-size: 32px;
       background: #353434;
      text-align: left;
