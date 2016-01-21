@@ -99,8 +99,8 @@ left : 50%;
 div.bodyartsecright1 {         /* side frame right about */
       height : 100%;
     width:50%;
-    color: #000000; 
-    text-shadow: #ff0000 2px 2px 0;
+      color: #616161;
+text-shadow: #e0e0e0 1px 1px 0;
     font-size: 35px;
       background: #353434;
      text-align: center;
