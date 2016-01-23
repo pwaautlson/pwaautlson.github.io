@@ -11,7 +11,7 @@ body {
   border: 2px dotted slategray;
   width: 1043px;
   margin: 0 auto;
-    height: 786px;
+    height: 736px;
 }
 nav {
     padding-top: 30;
@@ -74,6 +74,13 @@ h1, h3 {
  h3 {
         font-size: 25px;
     }
+h4 { 
+font-weight: bold;
+font-size: 25px;
+    margin: 2;
+    padding-left: 12;
+    margin-top: 7px;
+}
 a {text-decoration: none; 
 
 font-size: 27px;
@@ -81,15 +88,22 @@ font-size: 27px;
 
 }
 a:hover {
-    color: #000000;
- background: #2db34a;
-  transition-property: background;
-  transition-duration: 1s;
-  transition-timing-function: linear;
+    color: lime;
+    -webkit-transition: color 1s;
+    -moz-transition:    color 1s;
+    -ms-transition:     color 1s;
+    -o-transition:      color 1s;
+    transition:         color 1s;
 
+}
+.a {
+    color: #cccccc;
+    font-size: 20px;
+    padding-left: 14;
 }
 footer {
     border: 1px dashed;
+ height: 71px;
     width: 98%;
      margin-left: 10px;
 }
