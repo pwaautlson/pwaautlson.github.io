@@ -81,7 +81,12 @@ font-size: 27px;
 
 }
 a:hover {
-    color: hotpink;
+    color: #000000;
+ background: #2db34a;
+  transition-property: background;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+
 }
 footer {
     border: 1px dashed;
