@@ -88,6 +88,7 @@ top : 0%;
     border: 0px solid #ff00ff; 
     
 }
+
 div.bodyartsecright {         /* side frame right index */
       height : 100%;
     width:50%;
@@ -125,12 +126,19 @@ div.bast1 {                        /* BAST artical top frame index*/
     color: #616161;
 text-shadow: #e0e0e0 1px 1px 0;
     font-size: 32px;
-      
      text-align: center;
 position: absolute;
 left : 0%;      
     border: 0px solid #00fff0;   
 }
+
+div.inside {
+     height : 80%;
+    width:100%;
+    text-align: left;
+    overflow-y: scroll;
+}
+
 div.bast {                        /* BAST artical top frame about*/
      height : 50%;
     width:100%;
