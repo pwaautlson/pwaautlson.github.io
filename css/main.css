@@ -3,7 +3,7 @@
 
 body {                    /* set background to black by default */
    background-color: #353434;
-         background-image: url("pict.png");
+         background-image: url("../images/pict.png");
      background-repeat: no-repeat; center center fixed
      -webkit-background-size: cover;
   -moz-background-size: cover;
