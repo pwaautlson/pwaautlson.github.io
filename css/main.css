@@ -294,3 +294,10 @@ a:hover {
     100% {background-color: navajowhite;}
      50%  {background-color: white;}
 }
+.center {
+    text-align: center;
+}
+.left {
+    text-align: left;
+    word-wrap: break-word;  
+}

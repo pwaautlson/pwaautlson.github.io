@@ -1,0 +1,59 @@
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 900px;
+    height: 500px;
+    margin: 0 auto 0 auto;
+    background: lightgray;
+}
+
+.content {
+    background: lightgray;
+}
+
+header {
+    display: flex;
+}
+
+.logo {
+    background: black;
+    width:150px;
+    height:45px;
+    margin-right: auto;
+}
+
+.button {
+    display: inline-block;
+    background: darkgreen;
+    padding: 10px 30px 10px 30px;
+   border-radius: 16px 16px 16px 16px;
+border: 1px solid #000000;
+    color: white;
+    text-decoration: none;
+}
+
+.po {
+    background: white;
+    color: black;
+    font-size: 18px;
+}
+.po:hover {
+   
+    transition: background-color 2.5s ease;
+  background-color: lightgray;
+    color: white;
+    border: 0px solid #000000;
+}
+/* Big Promo */
+
+#bo {
+    padding-top: 200px;
+}
+
+.pe {
+    width: 60%;
+    padding: 50px;
+}
