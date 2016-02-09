@@ -45,7 +45,7 @@ border: 1px solid #000000;
     transition: background-color 2.5s ease;
   background-color: lightgray;
     color: white;
-    border: 0px solid #000000;
+    border: 1px solid lightgray;
 }
 /* Big Promo */
 
