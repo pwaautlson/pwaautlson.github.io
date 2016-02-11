@@ -1,73 +1,87 @@
-<!-- this adentifys document type, and language -->  
-
-
-<!DOCTYPE html> 
-<html lang="en">  
-    
-       
-    <!-- this adentifys the start of the html page -->  
-    
-    
+<!DOCTYPE html>
 <html>
-    
-    <!-- there are two parts head, and body -->  
-    <!-- The head is not seen, or rendered -->  
-    
-    
-    <head> 
-         <meta charset="utf-8"> 
-        <title>Web1</title>
+    <head>
+        <title>Layout Practice</title>
         <link rel="stylesheet" href="main.css">
     </head>
-    
-    
-    
-    <!-- the body is what is seen, and rendered -->
-    
-    
-    
     <body>
-        <div class="container"> <!-- this holds, or contains the informaton to be rendered -->  
-            <div class="content"> <!-- No damb clue why this is here -->  
-                
-                
-                
-                <header> <!-- the header is where the logo is, and the navagation -->  
-                    
-                    
-                    
-                    <div class="logo"></div> <!-- the logo --> 
-                    
-                    
-                    
-                    <nav> <!-- thie navagation -->  
-                        <a class="button" href="../index.html">Lorem</a>
-                        <a class="button" href="../about.html">Ipsum</a>
-                        <a class="button" href="#">Dolor</a>
-                        </nav>
-                    
-                    
-                    
-                         </header>                
-                
-                
-                
-                            <section id="bo"> <!-- the section is the main information  -->  
-                                
-                                
-                                <div class="pe">
-                                <h1>What does it all mean anyway?</h1>
- <p>This is some latin bull-shitt</p>
-                                <div>
-                            <a class="button po" href="#">Button One</a>
-                            <a class="button po" href="#">Button Two</a>
+        <div class="main-container">
+            <div class="promo-container">
+                <header>
+                    <div class="branding"></div>
+                    <nav>
+                        <a class="pill-button" href="#">Lorem</a>
+                        <a class="pill-button" href="#">Ipsum</a>
+                        <a class="pill-button" href="#">Dolor</a>
+                    </nav>
+                </header>
+                <section id="big-promo">
+                    <div class="promo-message">
+                        <h1>Lorem ipsum dolor sit amet</h1>
+                        <p>Mauris sed iaculis mauris. Cras congue pulvinar laoreet. Mauris quis elit feugiat, vehicula enim et, tempus tellus. Vestibulum sed risus libero.</p>
+                        <div>
+                            <a class="pill-button promo" href="#">Thing One</a>
+                            <a class="pill-button promo" href="#">Thing Two</a>
                         </div>
                     </div>
                 </section>
+            </div>
+          
+            <section>
+                <div class="product-features">
+                  
+                  <!-- Marmot -->
+                  <div class="feature">
+                        <div class="feature-image">
+                            <img src="images/one.png">
+                        </div>
+                        <p>Etiam eu varius eros. Vivamus eu pretium dolor. Duis lobortis mi a sem sagittis, id sollicitudin ante ullamcorper.</p>
+                    </div>
+                  
+                  <!-- Duke -->
+                  <div class="feature">
+                        <div class="feature-image">
+                            <img src="images/three.png">
+                        </div>
+                        <p>Etiam eu varius eros. Vivamus eu pretium dolor. Duis lobortis mi a sem sagittis, id sollicitudin ante ullamcorper.</p>
+                    </div>
+                  
+                  <!-- Fido -->
+                  <div class="feature">
+                        <div class="feature-image">
+                            <img src="images/two.png">
+                        </div>
+                        <p>Etiam eu varius eros. Vivamus eu pretium dolor. Duis lobortis mi a sem sagittis, id sollicitudin ante ullamcorper.</p>
+                    </div>
+                </div>
                 
-                
-                
-                
-                
-                
-            </div></div></body></html>
+                <div class="product-buy-it-now">
+                  
+                  <div class="product-image">
+                    <img src="images/four.png">
+                  </div>
+                  
+                  <div class="product-info">
+                    <h3>Buy this now!</h3>
+                    <p>Mauris sed iaculis mauris. Cras congue pulvinar laoreet. Mauris quis elit feugiat, vehicula enim et, tempus tellus. Vestibulum sed risus libero.</p>
+                    <a class="pill-button" href="#">Buy now!</a>
+                  </div>
+                  
+                </div><!-- /product-buy-it-now -->
+              
+            </section>
+          
+            <section  id="product-reviews"> 
+    
+              <div class="feature-image">
+                  <img src="http://placehold.it/200x200">
+              </div>
+              <p>Mauris sed iaculis mauris. Cras congue pulvinar laoreet. Mauris quis elit feugiat, vehicula enim et, tempus tellus. Vestibulum sed risus libero.</p>
+              <a class="pill-button promo" href="#">Thing Two</a>
+                      
+
+            </section>
+          
+        </div>
+    </body>
+</html>
