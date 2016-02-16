@@ -36,7 +36,17 @@ header {
     border-radius: 20px;
     color: white;
     text-decoration: none;
+    
+    
 }
+.pill-button:hover {
+   
+    transition: background-color 2.5s ease;
+  background-color:transparent;
+    color: black;
+    
+}
+
 
 .promo {
     background: white;
