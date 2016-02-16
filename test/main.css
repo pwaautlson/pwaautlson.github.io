@@ -41,7 +41,7 @@ header {
 }
 .pill-button:hover {
    
-    transition: background-color 2.5s ease;
+    transition: background-color 1.5s ease;
   background-color:transparent;
     color: black;
     
