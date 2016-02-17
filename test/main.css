@@ -103,3 +103,22 @@ background-image: url("images/five.png");
   text-align: center;
   padding: 50px;
 }
+
+
+
+footer {
+    display: flex;
+    background: green;
+    padding: 15px 10px 15px 10px;
+    font-size: 12;
+}
+.footer-links {
+    flex: 1;
+}
+.footer-copyright {
+    text-align: right;
+    flex: 1;
+}
+.footer-copyright p {
+    margin: 0;
+}
