@@ -1,0 +1,60 @@
+
+* {
+    box-sizing: border-box;
+}
+body
+{
+  
+border: 0px solid #0000ff; 
+  background: url(../background/19.jpg); 
+
+}
+
+.content{
+    border: 0px solid #ff0000;
+    height: 800px;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.section1 {
+
+font-family: 'Open Sans Condensed', sans-serif;
+font-size: 21px;
+font-weight: 700;
+font-style: italic;
+font-variant: small-caps;
+line-height: normal;
+    height: 40%;
+    width: 100%;
+    border: 0px solid #0000ff; 
+    border: 0px dashed;
+}
+.section2 {
+    font-family: 'Fjalla One', sans-serif;
+    text-align: left;
+    text-indent: 40px;
+    text-shadow: 1px 2px 3px #000000;
+    color: #ffffff;
+     height: 40%;
+    width: 100%;
+    border: 0px dashed black;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    letter-spacing: 3px;
+}
+    
+.s {text-decoration:none; color: green;}
+h2 {
+font-size: 10px;
+}
+.i {
+    border: 0px dashed;
+    
+padding: 10px;
+    
+float: left;
+   
+ margin-right: 20px;
+}
