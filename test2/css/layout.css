@@ -95,6 +95,8 @@ header {
 .product-info {
   text-align: center;
     color: aqua;
+    border: 0px solid red;
+    width: 50%;
 }
 
 /* Product Reviews */
