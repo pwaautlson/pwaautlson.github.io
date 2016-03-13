@@ -1,0 +1,756 @@
+/* ----------------------------- body fixed ----------------------------- */
+* {
+    box-sizing: border-box;
+}
+
+/* body background image*/
+/* body background image*/
+body {
+ object-fit: cover;
+    width:100%;
+      height:100%;
+    background: #092f13;
+}
+
+/* all 1-4 Site container */
+/* Site container */
+.container {
+    
+    width: 800px;
+    height: 1000px;
+    margin: 0 auto 0 auto;
+    border: 0px solid black;
+    background: #025c64;
+}
+/* ----------------------------- top fixed ----------------------------- */
+/* all 1-4 Site top */
+/* Site top */
+.top {
+    position: relative;
+   width: 100%;
+    height: 25%;
+    margin: 0 auto 0 auto;
+    border: 0px solid blue;
+background-image: url(../images/top.png);
+    background-repeat: no-repeat;
+
+}
+/* all 1-4 Site head */
+/* Site head */
+.head {
+    position: absolute;
+    top: 0px;
+    width: 800px;
+    height: 100px;
+    margin: 0 auto 0 auto;
+    border: 0px solid green;
+    background: #e6e6e6;
+    
+}
+/* all 1-4 headright */
+/* headright */
+.headright {
+    position: relative;
+    float: right;
+    width: 23%;
+    height: 60%;
+    margin-top: 28px;
+    margin-right: 16px;
+    border: 0px solid white;
+    background: #e6e6e6;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+}
+/* all 1-4 headleft */
+/* headleft */
+.headleft {
+    position: relative;
+    width: 350px;
+    height: 60%;
+     border: 0px solid white;
+    background: #e6e6e6;
+    color: bisque;
+    margin-top: 23px;
+    padding-top: 15px;
+}
+
+
+
+/* ----------------------------- index ----------------------------- */
+
+
+
+/* signup index only */
+/* signup */
+.signup {
+     position: relative;
+    margin-left: 200px;
+    margin-top: 19px;
+    width: 400px;
+    height: 100px;
+     border: 0px solid white;
+    color: snow;   
+}
+
+/* h1 index only */
+/* h1 */
+h1 {
+ margin: 0px; 
+    padding-left: 94px;
+    padding-top: 8px;
+    text-shadow: rgb(3, 3, 3) -8px 4px 4px;
+    border: 0px solid white; 
+}
+
+/* midhome index only */
+/* midhome */
+.midhome {   
+    position: relative;
+    display: flex;
+  height: 220px;
+   width: 800px;
+   border: 0px solid white; 
+}
+/* mid2home index only */
+/* mid2home */
+.mid2home {    
+  height: 349px;
+   width: 800px;
+   border: 0px solid white; 
+    display: flex;
+}
+
+
+ /* midone index only */
+/*  midone */
+.midone { 
+ position: relative;
+ margin-top: 40px;   
+ margin-left: 20px;   
+height: 100px;
+width: 100px;   
+border: 0px solid white;
+flex: 1;    
+ background-image: url(../images/beach.png);
+    background-repeat: no-repeat;   
+}
+
+/* midonebottom index only */
+/*  midonebottom */
+.midonebottom {
+margin-top: 100px;
+    height: 60px;
+  border: 0px solid red;  
+  color: whitesmoke;
+   padding-top: 4px; 
+    
+}
+/* midtwo index only*/
+/*  midtwo */
+.midtwo { 
+    position: relative;
+    margin-top: 40px; 
+    margin-left: 20px;
+height: 100px;
+width: 100px;   
+border: 0px solid white;
+ flex: 1;   
+     background-image: url(../images/tiger.png);
+    background-repeat: no-repeat; 
+}
+
+
+/* mid2left index only */
+/*  mid2left */
+.mid2left {
+  flex: 1; 
+    margin-top: 40px;
+    height: 270px;
+    width: 40px;
+    border: 0px solid white;
+    margin-left: 20px;
+    color: white;
+     text-shadow: 4px 4px 13px rgba(188, 211, 150, 1);
+}
+/* mid2leftbot index only */
+/*  mid2leftbot  */
+.mid2leftbot {
+    padding-top: 20px;
+    padding-left: 135px;
+     height: 70px;
+    width: 370px;
+    border: 0px solid white;
+   
+}
+/* mid2right index only */
+/* mid2right */
+.mid2right {
+    flex: 1;  
+    margin-top: 40px;
+     height: 270px;
+    width: 40px;
+    border: 0px solid white;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-image: url(../images/sunset.png);
+    background-repeat: no-repeat; 
+}
+
+
+/* midthree index only */
+/* midthree */
+.midthree { 
+    position: relative;
+    margin-top: 40px; 
+    margin-left: 20px;
+height: 100px;
+width: 100px;   
+border: 0px solid white;
+flex: 1;  
+     background-image: url(../images/winter.png);
+    background-repeat: no-repeat; 
+}
+/* midfour index only */
+/* midfour */
+.midfour { 
+    position: relative;
+    margin-top: 40px; 
+    margin-left: 20px;
+    margin-right: 20px;
+height: 100px;
+width: 100px;   
+border: 0px solid white;
+ flex: 1;  
+     background-image: url(../images/outdoors.png);
+    background-repeat: no-repeat; 
+}
+/* add index only */
+/* add */
+.add {
+    height: 80px;
+    width: 750px;
+    border: 0px solid white;
+    color: white;
+    margin-left: 24px;
+}
+/* ----------------------------- mixed 2-4 ----------------------------- */
+
+
+/* mid 3-4 */
+/* mid */
+
+.mid {   
+    position: relative;
+    display: flex;
+  height: 360px;
+   width: 800px;
+   border: 0px solid white; 
+}
+/* mid2 3-4 only */
+/* mid2 */
+.mid2 {    
+  height: 349px;
+   width: 800px;
+   border: 0px solid white; 
+    display: flex;
+}
+
+/* ----------------------------- features ----------------------------- */
+/* topf features only */
+/* topf */
+.topf {
+    position: relative;
+   width: 100%;
+    height: 10%;
+    margin: 0 auto 0 auto;
+    border: 0px solid blue;
+background-image: url(../images/top.png);
+    background-repeat: no-repeat;
+
+}
+
+/* midf1 section one */
+/* midf1 */
+.midf1 {
+       position: relative;
+  height: 280px;
+   width: 800px;
+   border: 0px solid white;  
+}
+/* midf1top four box container */
+/* midf1top */
+.midf1top {
+    display: flex;
+  height: 135px;
+   width: 800px;
+   border: 0px solid white; 
+
+}
+/* midf1top four boxes */
+/* box 1-4 */
+.midf1tpbox1 {
+    margin-top: 20px;
+flex: 1;  
+    
+  height: 111px;
+   
+   border: 0px solid white; 
+    background-image: url(../images/beach.png);
+    background-repeat: no-repeat;  
+}
+
+.midf1tpbox2 {
+    margin-top: 20px;
+flex: 1.5;  
+  height: 111px;
+   color: azure;
+   border: 0px solid blue;   
+  font-size: 13px;
+}
+
+.midf1tpbox3 {
+    margin-top: 20px;
+flex: 1;  
+  height: 111px;
+   
+   border: 0px solid white; 
+     background-image: url(../images/tiger.png);
+    background-repeat: no-repeat; 
+}
+.midf1tpbox4 {
+    margin-top: 20px;
+flex: 1.5;  
+  height: 111px;
+   
+   border: 0px solid blue;  
+    color: azure;
+font-size: 13px;
+}
+
+.midf1bottom {
+    display: flex;
+    margin-top: 0px;
+  height: 135px;
+   width: 800px;
+   border: 0px solid white; 
+
+}
+
+
+
+
+/* midf1bottom four boxes */
+/* box 1-4 */
+.midf1btbox1 {
+    margin-top: 15px;
+flex: 1;  
+    
+  height: 111px;
+   
+   border: 0px solid white; 
+    background-image: url(../images/winter.png);
+    background-repeat: no-repeat;  
+}
+
+.midf1btbox2 {
+    margin-top: 15px;
+flex: 1.5;  
+  height: 111px;
+   
+   border: 0px solid blue;   
+   color: azure;
+font-size: 13px;
+}
+
+.midf1btbox3 {
+    margin-top: 15px;
+flex: 1;  
+  height: 111px;
+   
+   border: 0px solid white; 
+     background-image: url(../images/outdoors.png);
+    background-repeat: no-repeat; 
+}
+.midf1btbox4 {
+    margin-top: 15px;
+flex: 1.5;  
+  height: 111px;
+   color: azure;
+   border: 0px solid blue; 
+    color: azure;
+font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+/* midf2 features only */
+/* midf2 */
+.midf2 {   
+    position: relative;
+
+  height: 240px;
+   width: 800px;
+   border: 0px solid white; 
+}
+.midf2top {
+
+height: 170px;
+   width: 800px;
+   border: 0px solid green; 
+
+background-image: url(../images/midf.png);
+    background-repeat: no-repeat;
+}
+.midf2bot {
+
+height: 87px;
+   width: 800px;
+   border: 0px solid purple; 
+text-align: center;
+ color: azure;
+font-size: 19px;
+    
+    
+}
+
+
+
+
+
+
+
+
+/* midf3 features only */
+/* midf3 */
+.midf3 {   
+    margin-top: 5px;
+  height: 150px;
+   width: 800px;
+   border: 0px solid white; 
+    display: flex;
+}
+
+.midfone {
+flex: 1;   
+   position: relative;
+  height: 150px;
+   width: 80px;
+   border: 0px solid white; 
+    object-fit: cover;
+background-image: url(../images/scuba.png);
+    background-repeat: no-repeat;
+
+}
+
+.midftwo {
+flex: 1;   
+   position: relative;
+  height: 150px;
+   width: 80px;
+   border: 0px solid white;
+ object-fit: cover;
+background-image: url(../images/eagle.png);
+    background-repeat: no-repeat;
+
+}
+.midfthree {
+flex: 1;   
+   position: relative;
+  height: 150px;
+   width: 80px;
+   border: 0px solid white;
+    object-fit: cover;
+background-image: url(../images/bearcubs.png);
+    background-repeat: no-repeat;
+}
+
+.midffour {
+flex: 1;   
+   position: relative;
+  height: 150px;
+   width: 80px;
+   border: 0px solid white;
+object-fit: cover;
+background-image: url(../images/girl.png);
+    background-repeat: no-repeat;
+}
+.midffive {
+flex: 1;   
+   position: relative;
+  height: 150px;
+   width: 80px;
+   border: 0px solid white;
+object-fit: cover;
+background-image: url(../images/rock.png);
+    background-repeat: no-repeat;
+}
+.midfbottom {
+  position: relative;
+    padding-top: 10px;
+  height: 124px;
+   width: 800px;
+   border: 0px solid white;
+    text-align: center;
+      color:snow;
+font-size: 17px;
+}
+/* ----------------------------- Pricing----------------------------- */
+.topp {
+    position: relative;
+   width: 100%;
+    height: 10%;
+    margin: 0 auto 0 auto;
+    border: 0px solid blue;
+
+
+}
+
+
+
+
+.midp1 {   
+    position: relative;
+    display: flex;
+  height: 210px;
+   width: 800px;
+   border: 0px solid green; 
+   background-image: url(../images/desert.png);
+    background-repeat: no-repeat; 
+     -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+ 
+.midp2 {  
+  margin-top: 20px;  
+  height: 380px;
+   width: 800px;
+   border: 0px solid green; 
+    display: flex;
+}
+
+
+
+
+.midp2one {
+margin-left: 10px;
+flex: 1;
+width: 100px;
+height: 370px;
+border: 0px solid green; 
+ background: #e6e6e6; 
+    text-align: center;
+}
+
+
+.midp2two {
+margin-left: 10px;
+flex: 1;
+width: 100px;
+height: 370px;
+border: 0px solid green; 
+ background: #e6e6e6; 
+    text-align: center;
+}
+.midp2three {
+margin-left: 10px;
+margin-right: 10px;
+flex: 1;
+width: 100px;
+height: 370px;
+border: 0px solid green;
+background: #e6e6e6; 
+    text-align: center;
+}
+
+
+
+
+.midp3 { 
+   position: relative;
+  height: 190px;
+   width: 800px;
+   border: 0px solid green; 
+text-align: center;
+    color: whitesmoke;
+}
+
+
+
+
+
+
+
+
+
+
+.midp2bottom {
+ margin-top: 180px; 
+    padding-top: 15px;
+    padding-left: 0px;
+width: 250px;
+height: 50px;
+border: 0px solid green; 
+
+
+}
+/* ----------------------------- blog ----------------------------- */
+
+.midblog {
+
+  position: relative;
+  height: 650px;
+   width: 800px;
+   border: 0px solid green; 
+    color: whitesmoke;
+
+
+
+
+}
+h2 {
+    margin: 0 auto;
+padding: 20px;
+}
+
+.blog1 {
+position: relative;
+color: beige;
+border: 0px solid yellow; 
+    
+}
+
+
+
+
+
+
+.blog2 {
+display: flex;
+position: relative;
+color: beige;
+border: 0px solid green; 
+height: 200px;
+margin-left: 25px;
+
+}
+.blogpic1 {
+    position: relative;
+flex: 1;
+    height: 200px;
+    
+    border: 0px solid yellow; 
+}
+.blogpic2 {
+    position: relative;
+flex: 3;
+    height: 200px;
+    
+    border: 0px solid yellow; 
+    margin-right: 25px;
+     background-image: url(../images/picture1.png);
+    background-repeat: no-repeat; 
+     -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.blog3 {
+display: flex;
+position: relative;
+color: beige;
+border: 0px solid green; 
+height: 200px;
+margin-left: 25px;
+
+}
+.blogpic3 {
+    position: relative;
+flex: 1;
+    height: 200px;
+    border: 0px solid yellow; 
+     background-image: url(../images/picture2.png);
+    background-repeat: no-repeat; 
+     -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+    
+}
+.blogpic4 {
+    position: relative;
+flex: 1.5;
+    height: 200px;
+    margin-right: 25px;
+    border: 0px solid yellow; 
+}
+
+/* ----------------------------- bottom fixed ----------------------------- */
+
+
+/* all 1-4 bottom */
+/* bottom */
+.bottom {
+    
+    position: relative;
+    bottom: 0px;
+    border: 0px solid green;
+    background: #e6e6e6;
+    width: 800px;
+    height: 100px;
+    
+}
+/* all 1-4 bottomright */
+/* bottomright */ 
+.bottomright {
+    position: relative;
+    float: right;
+    width: 300px;
+    height: 60%;
+    margin-top: 37px;
+    margin-right: 15px;
+    border: 0px solid white;
+    background: #e6e6e6;
+} 
+/* all 1-4 a */
+/* a */
+a {
+color: black;
+text-decoration: none;
+      background: gray;
+  transition-property: background;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+     padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+}
+/* all 1-4 a.one:hover */
+/* a.one:hover */
+a.one:hover {
+   color: brown;
+ border-radius: 20px;
+    background: lightgray;
+ padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+}
+/* all 1-4 p */
+/* p */
+p {
+font-size: 13px;
+margin: 0 auto;
+padding-left: 25px;
+padding-top: 9px;
+
+}
+p.one1 {
+font-size: 14px;
+padding-top: 0px;
+padding-left: 0px:
+}
